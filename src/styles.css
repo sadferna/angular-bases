@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background: orange;
+  background-image: url(assets/fondo-dbz2.png);
+  background-size: contain;
+}

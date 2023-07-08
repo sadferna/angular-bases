@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+
 import { CounterModule } from './counter/counter.module';
+import { DbzModule } from './dbz/dbz.module';
 import { HeroesModule } from './heroes/heroes.module';
 //*En este lugar se recomienda que primero vayan las importaciones propias de JS
 //*Luego (si es que tuvieramos), importaciones de angular (lo que es oficial)
@@ -15,7 +17,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     CounterModule,
-    HeroesModule
+    HeroesModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
